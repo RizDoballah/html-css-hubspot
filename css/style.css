@@ -5,23 +5,112 @@
 }
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  color: #33475B;
 }
-.container-header {
+header {
   height: 600px;
   width: 100%;
-  /* background-color:red; */
+  background-color:red;
 }
-.header {
-  height: 50px;
-  /* width: 85%;
-  margin: 0 auto; */
+/* header top */
+.header-top {
+  background-color: #F4F9FD;
 }
-.header.menu-top {
- background-color: yellow;
+.menu-top::after {
+  content: "";
+  display: table;
+  clear: both;
 }
-.header.menu-bottom {
-  background-color: green;
+.menu-top {
+  width: 85%;
+  margin: 0 auto;
 }
+.menu-top .col-left {
+  float: left;
+  line-height: 60px;
+}
+.menu-top .col-right {
+  float: right;
+  line-height: 60px;
+  text-align: right;
+}
+.menu-top .col-left {
+  width: 40%;
+}
+.nav-menu-top li {
+  display: inline;
+  list-style: none;
+  margin-right: 30px;
+}
+li.english {
+  border-right: 1px solid #33475B;
+  padding-right: 20px;
+}
+.nav-menu-top li a {
+  text-decoration: none;
+  color: #33475B;
+}
+.menu-top .col-right {
+  width: 40%;
+}
+.nav-menu-bottom li {
+  display: inline;
+  list-style: none;
+  padding: 25px;
+}
+button.button-orange {
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #FE775A;
+}
+button.login {
+  color: #FE775A;
+  border-color: #FE775A;
+  background-color: #F4F9FD;
+  padding: 10px;
+  border-radius: 5px;
+}
+/* header top */
+.header-bottom {
+  height: 60px;
+  background-color: #fff;
+}
+.menu-bottom {
+  width: 85%;
+  margin: 0 auto;
+}
+.menu-bottom::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.menu-bottom .col-left {
+  float: left;
+  width: 30%;
+  line-height: 60px;
+}
+.menu-bottom .col-left img {
+  height: 20px;
+}
+.menu-bottom .col-right {
+  float: right;
+  width: 60%;
+  line-height: 60px;
+  text-align: right;
+}
+.menu-bottom .col-right li {
+  display: inline;
+  list-style: none;
+  padding: 15px;
+}
+.menu-bottom .col-right li a {
+  color: #33475B;
+  text-decoration: none;
+}
+
+
+
 .header-banner {
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
