@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-header {
+  height: 600px;
+  width: 100%;
+  /* background-color:red; */
+}
+.header {
+  height: 50px;
+  width: 85%;
+  margin: 0 auto;
+}
+.header.menu-top {
+ background-color: yellow;
+}
+.header.menu-bottom {
+  background-color: green;
+}
+.header-banner {
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: left 100% bottom 0;
+
+  height: 450px;
+  background-color: pink;
+}
