@@ -13,8 +13,8 @@ body {
 }
 .header {
   height: 50px;
-  width: 85%;
-  margin: 0 auto;
+  /* width: 85%;
+  margin: 0 auto; */
 }
 .header.menu-top {
  background-color: yellow;
@@ -25,9 +25,12 @@ body {
 .header-banner {
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
-  background-size: 75%;
-  background-position: left 100% bottom 0;
-
-  height: 450px;
-  background-color: pink;
+  background-size: 80%;
+  background-position: left 100% bottom 260%;
+  height: 500px;
+  background-color: #FFF3EE;
+}
+.fine-header {
+  height: 60px;
+  background-color: #AFEBE4;
 }
