@@ -152,7 +152,7 @@ button.button-orange.banner {
 
 /* main */
 main{
-  height: 1000px;
+  height: 2000px;
   width: 100%;
   background-color: #F4F9FD;
 }
@@ -169,54 +169,122 @@ main{
 .illustration img {
   height: 200px;
 }
-.main-top-col1 {
+.main-top-row {
   width: 85%;
   margin: 30px auto;
   background-color: #fff;
 }
-.main-top-col1::after {
+.main-top-row::after {
   content: "";
   display: table;
   clear: both;
 }
-.main-top-col1-left,
-.main-top-col1-right {
+.main-top-row-left,
+.main-top-row-right {
   float: left;
 }
-.main-top-col1-left {
+.main-top-row-left {
   width: 20%;
   margin: 30px 10%;
 }
-.main-top-col1-left img {
+.main-top-row-left img {
   height: 120px;
   margin-bottom: 15px;
 }
-.main-top-col1-right {
+.main-top-row-right {
   width: 40%;
   margin: 30px 30px 0 10%;
 }
-.main-top-col1-right h3 {
+.main-top-row-right h3 {
   margin-bottom: 15px;
   margin-top: 15px;
 }
-.main-top-col1-right h4 {
+.main-top-row-right h4 {
   margin-top: 25px;
   font-size: 14px;
 }
-.main-top-col1-right p {
+.main-top-row-right p {
   line-height: 25px;
 }
-.main-top-col1-right hr {
+.main-top-row-right hr {
   width: 180px;
   margin-left: 150px;
   margin-top: -5px;
 }
-.main-top-col1-right ul li {
+.main-top-row-right ul li {
   margin-top: 20px;
   padding-right: 30px;
   display: inline-block;
   list-style: none;
 }
-.main-top-col1-right ul li i {
+.main-top-row-right ul li i {
+  color: #FE775A;
+}
+.main-top-container-col {
+  width: 85%;
+  margin: 20px auto;
+  height: 300px;
+  text-align: center;
+}
+.main-top-container-col::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.main-top-col-left,
+.main-top-col-center,
+.main-top-col-right {
+  float: left;
+  background-color: #fff;
+  width: 25%
+}
+.main-top-col-center {
+  margin: 0 12.5%
+}
+.main-top-col-left img,
+.main-top-col-center img,
+.main-top-col-right img {
+  height: 120px;
+  margin: 15px 0;
+}
+.main-top-col-left h3,
+.main-top-col-center h3,
+.main-top-col-right h3 {
+  margin-bottom: 15px;
+}
+.main-top-col-left p,
+.main-top-col-center p,
+.main-top-col-right p {
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+.main-top-col-left hr,
+.main-top-col-center hr,
+.main-top-col-right hr {
+  width: 240px;
+  margin: 0 30px;
+}
+.main-top-col-left h4,
+.main-top-col-center h4,
+.main-top-col-right h4 {
+  font-size: 14px;
+  margin: 20px 0;
+}
+.main-top-col-left ul li ,
+.main-top-col-center ul li ,
+.main-top-col-right ul li {
+  list-style: none;
+  text-align: left;
+  margin-left: 30px;
+}
+.main-top-col-left button ,
+.main-top-col-center button ,
+.main-top-col-right button {
+  margin-top: 30px;
+}
+
+.main-top-col-left ul li i,
+.main-top-col-center ul li i,
+.main-top-col-right ul li i {
   color: #FE775A;
 }
