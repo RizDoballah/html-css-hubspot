@@ -10,11 +10,11 @@ body {
 header {
   height: 600px;
   width: 100%;
-  background-color:red;
 }
-/* header top */
+/* header-top */
 .header-top {
   background-color: #F4F9FD;
+  border-bottom: 1px solid #33475B;
 }
 .menu-top::after {
   content: "";
@@ -71,7 +71,7 @@ button.login {
   padding: 10px;
   border-radius: 5px;
 }
-/* header top */
+/* header-bottom */
 .header-bottom {
   height: 60px;
   background-color: #fff;
@@ -106,11 +106,10 @@ button.login {
 }
 .menu-bottom .col-right li a {
   color: #33475B;
+  font-weight: bold;
   text-decoration: none;
 }
-
-
-
+/* header-banner */
 .header-banner {
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
@@ -119,7 +118,33 @@ button.login {
   height: 500px;
   background-color: #FFF3EE;
 }
+.title-header-banner {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+.title-header-banner h1 {
+  font-size: 55px;
+  width: 40%;
+  line-height: 65px;
+  margin-bottom: 15px;
+}
+.title-header-banner p {
+  width: 40%;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+button.button-orange.banner {
+  padding: 15px;
+  background-color: #FE775A;
+  margin-bottom: 15px;
+}
+.title-header-banner p.text {
+  font-size: 14px;
+}
 .fine-header {
   height: 60px;
   background-color: #AFEBE4;
+  border-top: 2px solid #33475B;
+  border-bottom: 3px solid #33475B;
 }
