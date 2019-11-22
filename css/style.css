@@ -152,7 +152,7 @@ button.button-orange.banner {
 
 /* main */
 main{
-  height: 2000px;
+  /* height: 2000px; */
   width: 100%;
   background-color: #F4F9FD;
 }
@@ -167,7 +167,7 @@ main{
   margin: auto;
 }
 .illustration img {
-  height: 200px;
+  /* height: 400px; */
 }
 .main-top-row {
   width: 85%;
@@ -188,7 +188,7 @@ main{
   margin: 30px 10%;
 }
 .main-top-row-left img {
-  height: 120px;
+  /* height: 120px; */
   margin-bottom: 15px;
 }
 .main-top-row-right {
@@ -223,7 +223,7 @@ main{
 .main-top-container-col {
   width: 85%;
   margin: 20px auto;
-  height: 300px;
+  /* height: 300px; */
   text-align: center;
 }
 .main-top-container-col::after {
@@ -287,4 +287,66 @@ main{
 .main-top-col-center ul li i,
 .main-top-col-right ul li i {
   color: #FE775A;
+}
+/* main-middle */
+.main-middle {
+  width: 100%;
+  height: 400px;
+  background-color: #00ABB6;
+}
+.main-middle-container {
+  width: 85%;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}
+.main-middle-container h2 {
+  padding: 25px 0;
+}
+.main-middle-container P {
+  line-height: 18px;
+  margin-bottom: 30px;
+}
+.main-middle-table {
+  width: 85%;
+  margin: 0 auto;
+}
+.main-middle-table {
+  padding: 10px;
+  line-height: 30px;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 10px;
+}
+.main-middle-table, td {
+  border-right: 1px inset white;
+}
+.main-middle-table, td:last-child {
+  border-right: none;
+}
+.main-middle-table, tr:nth-child(3) {
+  border-bottom: 1px inset white;
+}
+.main-middle-table, tr:last-child {
+  border-bottom: none;
+}
+tr.numbers {
+  font-size: 36px;
+  font-weight: bold;
+  border-style:
+}
+td.icon {
+  font-size: 16px;
+}
+td.bold {
+  font-weight: bold;
+}
+td span {
+  font-size: 10px;
+  font-weight: normal;
+  padding-top:5px;
+}
+br {
+   display: block;
+   margin: 0;
 }
