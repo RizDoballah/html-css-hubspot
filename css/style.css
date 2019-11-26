@@ -82,7 +82,7 @@ button.login {
 }
 /* header-bottom */
 .header-bottom {
-  height: 60px;
+  /* height: 60px; */
   background-color: #fff;
 }
 .menu-bottom {
@@ -287,6 +287,7 @@ main{
 .main-top-col-center button ,
 .main-top-col-right button {
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .main-top-col-left ul li i,
@@ -371,23 +372,28 @@ tr.numbers {
 .logos-col-left {
   float: left;
   width: 20%;
-  margin-right: 20%;
+  margin-right: 5%;
 }
 .logos-col-right {
   float: right;
-  width: 60%;
-  margin-left: 20%;
+  width: 65%;
+  margin-left: 10%;
+  text-align: right;
 }
-.logos td {
+.logos-col-right .logo li {
+  list-style: none;
+  display: inline-block;
   padding: 10px;
 }
+
 .logos-col-left,
 .logos-col-right {
   margin-top: 40px;
 }
-.logos-col-left img,
 .logos-col-right img {
-  width: 100px;
+  width: 90px;
+  line-height: 50px;
+  vertical-align: middle;
 }
 .logos-col-left h3 {
   font-size: 45px;
@@ -405,10 +411,13 @@ tr.numbers {
 .img-col-left {
   float: left;
   width: 35%;
+  height: 350px;
+
 }
 .img-col-left h2 {
   font-size: 28px;
   margin-bottom: 25px;
+  margin-top: 20px;
 }
 .img-col-left p {
   margin-bottom: 25px;
@@ -422,10 +431,10 @@ tr.numbers {
   width: 35%;
 }
 .img-col-right img {
-  height: 320px;
-  line-height: 320px;
+  line-height: 350px;
   vertical-align: middle;
   margin-bottom: 40px;
+  height: 350px;
 }
 /* footer */
 .footer-container{
